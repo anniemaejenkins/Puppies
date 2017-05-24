@@ -1,0 +1,78 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+*{
+  box-sizing: border-box;
+}
+body {
+  border: 1px solid #ffd24a;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 70%;
+  line-height: 1.6;
+}
+
+
+
+header {
+  background-color: rgb(253, 133, 52);
+}
+
+.main_navigation a{
+  padding: 5px 20px;
+  border: 1px solid white;
+  color: white;
+  font-weight: bold;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+section {
+  border-bottom: 2px solid #eee;
+}
+
+ul {
+  font-weight: bold;
+}
+
+h1, h2, h3 {
+  color: #1fabe5;
+}
+
+thead {
+  background-color: #1fabe5;
+  color: white;
+  border: 1px solid black;
+}
+img {
+  max-width: 20%;
+}
+
+td {
+  border: 1px solid #1fabe5;
+}
+
+form {
+  background-color: #eee;
+}
+
+textarea {
+  border: 1px solid #1fabe5;
+}
+
+#submit_button {
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px;
+  color: white;
+  background-color: #1fabe5;
+}
