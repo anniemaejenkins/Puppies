@@ -16,16 +16,25 @@ colors:
   box-sizing: border-box;
 }
 body {
-  border: 1px solid #ffd24a;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 70%;
   line-height: 1.6;
+  background: url('img/bg.jpg')
 }
-
-
+body > div {
+  background-color: #FFFFFF;
+  max-width: 800px;
+  margin: 0 auto;
+    border: 1px solid #ffd24a;
+}
 
 header {
   background-color: rgb(253, 133, 52);
+  padding: 15px;
+}
+
+p > a{
+  color: #1fabe5
 }
 
 .main_navigation a{
@@ -34,6 +43,8 @@ header {
   color: white;
   font-weight: bold;
   font-family: Helvetica, Arial, sans-serif;
+  border-radius: 5px;
+  text-decoration: none;
 }
 
 section {
@@ -48,21 +59,49 @@ h1, h2, h3 {
   color: #1fabe5;
 }
 
+h3{
+  margin-left: 10px;
+}
+
 thead {
   background-color: #1fabe5;
   color: white;
   border: 1px solid black;
 }
-img {
-  max-width: 20%;
+table img {
+width: 50px;
+height: 50px;
+margin: 10px;
 }
 
 td {
   border: 1px solid #1fabe5;
 }
 
+table {
+  border-collapse: collapse;
+  column-width: 50px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.name{
+  background-color: #ff8523
+}
+
+h2{
+  margin-left: 10px;
+}
+
+p{
+  margin-left: 10px;
+}
+
 form {
   background-color: #eee;
+  margin: 10px 10px;
+  border-radius: 5px;
+  padding: 10px;
 }
 
 textarea {
@@ -75,4 +114,6 @@ textarea {
   padding: 10px;
   color: white;
   background-color: #1fabe5;
+  border-radius: 5px;
+  margin: 10px;
 }
